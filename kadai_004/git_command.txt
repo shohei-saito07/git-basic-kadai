@@ -1,0 +1,20 @@
+◾️ローカルリポジトリの作成・変更手順
+
+・任意のフォルダに「git_challenge」というローカルリポジトリを作成
+>mkdir git_challenge
+>cd git_challenge
+>git init
+
+・直下に「hello_world.txt」というファイルを作成
+>画面から作成
+
+・画面から「hello_world.txt」に「「hello, world!」を追記し、コミット
+>git add hello_world.txt
+>git commit -m "hellow_world.txtを追加"
+
+・画面から「hello_world.txt」に「こんにちは、世界！」を追記し、コミット
+>git add hello_world.txt
+>git commit -m "日本語訳を追記"
+
+・2回コミットした後の変更履歴を表示
+>git log
