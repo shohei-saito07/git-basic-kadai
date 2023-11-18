@@ -17,4 +17,4 @@
 >git commit -m "日本語訳を追記"
 
 ・2回コミットした後の変更履歴を表示
->git log
+>git log --oneline
